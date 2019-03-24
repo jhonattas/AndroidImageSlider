@@ -13,7 +13,7 @@ import java.util.HashMap;
  * This is all transformers father.
  *
  * BaseTransformer implement {@link com.daimajia.slider.library.Tricks.ViewPagerEx.PageTransformer}
- * which is just same as {@link android.support.v4.view.ViewPager.PageTransformer}.
+ * which is just same as {@link androidx.core.view.ViewPager.PageTransformer}.
  *
  * After you call setPageTransformer(), transformPage() will be called by {@link com.daimajia.slider.library.Tricks.ViewPagerEx}
  * when your slider are animating.
